@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama hideabout="1" id="node1">
+  <input levelbias="0.400" leveltileurl="tiles/R0010169_20160512144133_Pano2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="-9.9" leveltilesize="510" overlap="1" height="1344" levelingroll="95.5" width="1344" levelbiashidpi="0.400">
+    <level predecode="0" height="1344" width="1344" preload="0"/>
+    <level predecode="0" height="672" width="672" preload="0"/>
+    <level predecode="1" height="336" width="336" preload="1"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view pannorth="-45" fovmode="0">
+    <start pan="-179.835" fov="71" tilt="-10.4967"/>
+    <min pan="0" fov="5" tilt="-90"/>
+    <max pan="360" fov="120" tilt="90"/>
+  </view>
+  <userdata latitude="" datetime="2016:05:12 14:41:33" source="" title="" comment="" author="" info="" description="" tags="1002" longitude="" copyright=""/>
+  <hotspots height="20" wordwrap="1" width="180">
+    <label bordercolor="0x000000" background="1" backgroundcolor="0xffffff" height="20" wordwrap="1" width="180" borderalpha="1" border="1" enabled="1" textalpha="1" backgroundalpha="1" textcolor="0x000000" borderradius="1"/>
+    <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1" mode="0"/>
+    <hotspot url="images/1002_Steering1.jpg" pan="140.59" target="" title="Steering Control" skinid="ht_image" tilt="-6.58" id="Point01" description=""/>
+    <hotspot url="images/DSC_0714.jpg" pan="-172.65" target="" title="Music System Specs" skinid="ht_image" tilt="-4.17" id="Point02" description=""/>
+    <hotspot url="images/DSC_0718.jpg" pan="152.78" target="" title="Odometer Reading" skinid="ht_image" tilt="5.24" id="Point03" description=""/>
+    <hotspot url="images/DSC_0722.jpg" pan="179.48" target="" title="Transmission" skinid="ht_image" tilt="-32.49" id="Point04" description=""/>
+    <hotspot url="images/DSC_0720.jpg" pan="-0.96" target="" title="Seat Capacity/Specs" skinid="ht_image" tilt="-8.25" id="Point05" description=""/>
+    <hotspot url="images/DSC_0721.jpg" pan="114.21" target="" title="Power Accessories" skinid="ht_image" tilt="-13.65" id="Point06" description=""/>
+  </hotspots>
+  <media/>
+  <transition softedge="0" blendtime="1" zoomout="0" zoomspeed="2" zoomfov="20" zoomoutpause="1" zoomin="0" enabled="0" type="crossdissolve" blendcolor="0x000000"/>
+  <control simulatemass="1" contextfullscreen="1" invertwheel="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" speedwheel="1" lockedkeyboard="0" hideabout="1" dblclickfullscreen="0" lockedmouse="0" lockedwheel="0">
+    <menulink url="http://chachacar.com" text="By ChaChaCar "/>
+  </control>
+</panorama>

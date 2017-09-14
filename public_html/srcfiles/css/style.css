@@ -1,0 +1,137 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+}
+.chachacardisplay01 {
+    background: #333;
+    overflow: hidden;
+    width: 100%
+}
+.chachapic {
+    border-radius: 15px;
+    background-color: #3f64d0;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 0 #111;
+    box-shadow: 0 0 0 #111
+}
+.chachamorph {
+    overflow: hidden;
+    opacity: .6;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out
+}
+.chachamorph:hover {
+    box-shadow: rgba(0, 0, 0, .2) 3px 5px 5px;
+    transition: all .3s linear;
+    opacity: .3
+}
+
+/*
+.chachacontent {
+    width: 900px;
+    height: 530px;
+    float: left
+}  */
+
+/*.chachaimagebuttons img {
+    display: block;
+} */
+
+.chachamainwrapper {
+    position: relative;
+    width: 900px;
+    height: 530px;
+    margin: 0 auto
+}
+
+.chachabutton1 {
+    content: url(../images/1.png)
+}
+.chachabutton2 {
+    content: url(../images/2.png)
+}
+.chachabutton3 {
+    content: url(../images/3.png)
+}
+.chachabutton4 {
+    content: url(../images/4.png)
+}
+@media only screen and (max-device-width: 480px) {
+    .chachacontent {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 35px;
+        height: 0;
+        overflow: hidden
+    }
+    .chachacontent iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%
+    }
+    #chachabutton5 {
+        display: none
+    }
+	/*new*/
+	.chachaimagebuttons img {
+		display: inline;
+	}
+	.chachamainwrapper iframe {
+        width: 480px !important;
+        height: 283px !important;
+    }
+	
+	.chachamainwrapper {
+		width: 480px !important;
+		height: 343px !important;
+	}
+	.chachapic {
+		margin: 2px;
+	}
+	.chachaimagebuttons {
+	
+    position: absolute;
+    right: 0;
+    top: 15%
+	}
+}
+@media only screen and (min-device-width: 480px) {
+    .chachacontent {
+        float: left
+    }
+    
+    #chachabutton4 {
+        display: none
+    }
+	/*new*/
+	#chachaimagebuttons a {
+        display: block;
+    }
+	.chachaimagebuttons img {
+		display: block;
+	}
+	.chachamainwrapper iframe, .chachamainwrapper {
+        width: 900px !important;
+        height: 530px !important;
+    }
+	.chachapic {
+		margin: 5px;
+	}
+	.chachaimagebuttons {
+    position: absolute;
+    right: 0;
+    top: 30%
+	}
+}
+
+/*the zoom slider*/
+div.rotate-tool-zoomslider.rotate-tool-unselectable {
+	left: 5% !important;
+	} 

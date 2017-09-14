@@ -1,0 +1,1 @@
+function SwapDivsWithClick2(e,d,t,n,l){d1=document.getElementById(e),d2=document.getElementById(d),d3=document.getElementById(t),d4=document.getElementById(n),d5=document.getElementById(l),d1.style.display="block",d2.style.display="none",d3.style.display="none",d4.style.display="none",d5.style.display="none"}

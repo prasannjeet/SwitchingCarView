@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>3D View of a Product</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="robots" content="all" />
+
+<style>
+	body,html{width: 100%; height: 100%; padding:0; margin:0; overflow: hidden; }
+	#product3d{ width: 100%; height: 100%; border: 0; overflow: hidden;}
+</style>
+<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="nivo-lightbox.css" type="text/css" />
+<link rel="stylesheet" href="themes/default/default.css" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> 
+<script src="nivo-lightbox.min.js"></script>
+<script type="text/javascript">
+
+		//Initializint the Nivo LightBox
+		$(document).ready(function(){
+		    $('a').nivoLightbox({
+		    	clickOverlayToClose: true   
+		    });
+		});
+
+		/**
+		 * This function is called by the RotateTool, as defined in config.js
+		 * @param src Is the youtube embed url
+		 */
+		function yofla_playVideo(src){
+			//cosntruct content
+			var iframeHtml = '<span>'+src+'</span>';
+			//set content
+			$("#video-content2").html(iframeHtml);
+			//launch lightbox
+			$("#helper-link2").click();
+		};
+	</script>
+</head>
+
+<body>
+    <div id='product3d' data-rotate-tool='{"path":"","gaData":"","id":"open"}'> </div>
+	<script type="text/javascript" src="rotatetool.js"></script>
+	<a id="helper-link2" class="hidden" href="#video-content2" data-lightbox-type="inline">Load iFrame</a>
+<div id="video-content2" class="hidden" ></div>
+</body>
+</html>
